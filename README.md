@@ -42,4 +42,16 @@ source 1-setup-spack.sh
 
 This will install around 70 software packages.
 
+Building of the Proteus executable 
+--------------------------------------
+
+The Proteus software will reside in directory <proteus_root>.
+
+```
+cd <proteus_root>
+./<stack_root>/scripts/build-proteus.sh
+```
+
+See the 0-README.txt installed in <proteus_root> for more details.
+
 version: 2019.02.19
