@@ -1,7 +1,9 @@
 stack-proteus
 =============
 
-Files needed to build a Proteus software stack via Spack.
+Files needed to build a Proteus (python3 branch) software stack via Spack.
+
+NOTE: The OSX [clang-9.1] build process currently has a show-stopper hiccup while building `daetk`. 
 
 Installation of files
 ---------------------
@@ -29,7 +31,7 @@ Optional use of Proteus source tarballs
 
 If there is no internet access on the target machine that you wish to install proteus, you need to secure the needed tarballs and manually transfer them to the target machine.
 
-If you have this need, [tarballs-proteus](https://github.com/burgreen/tarballs-proteus).
+If you have this need, see [tarballs-proteus](https://github.com/burgreen/tarballs-proteus).
 
 Installation of Proteus software stack
 --------------------------------------
@@ -42,7 +44,7 @@ source 1-setup-spack.sh
 
 This will install around 70 software packages.
 
-Building of the Proteus executable 
+Building of the Proteus (python3 branch) executable 
 --------------------------------------
 
 The Proteus software will reside in directory `<proteus_root>`.
