@@ -29,6 +29,8 @@ This can be done per directions in [stack-gcc](https://github.com/burgreen/stack
 Optional use of Proteus source tarballs
 ----------------------------------------------------------
 
+If you have internet access and can clone this repo, skip this step.
+
 If there is no internet access on the target machine that you wish to install proteus, you need to secure the needed tarballs and manually transfer them to the target machine.
 
 If you have this need, see [tarballs-proteus](https://github.com/burgreen/tarballs-proteus).
