@@ -11,9 +11,7 @@ Installation of files
 Create a root software stack directory `<stack_root>` per directions in [stack-spack](https://github.com/burgreen/stack-spack).
 
 ```
-tar xfv  stack-proteus-var.tar        -C <stack_root>
-tar xfv  stack-proteus-scripts.tar    -C <stack_root>
-tar xfvz stack-proteus-thirdparty.tar -C <stack_root>
+./install-proteus.sh
 ```
 
 Optional installation of a gcc compiler
@@ -58,4 +56,4 @@ cd <proteus_root>
 
 See the `0-README.txt` installed in `<proteus_root>` for more details.
 
-version: 2019.02.19
+version: 2019.03.29
