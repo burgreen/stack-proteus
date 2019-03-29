@@ -28,6 +28,8 @@ var=stack-proteus-var.tar
 
 echo Installing tarballs
 
+cd $1
+
 tar xf $current/$script
 tar xf $current/$var
 tar xf $current/$thirdparty
