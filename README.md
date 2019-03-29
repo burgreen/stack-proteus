@@ -11,8 +11,15 @@ Installation of files
 Create a root software stack directory `<stack_root>` per directions in [stack-spack](https://github.com/burgreen/stack-spack).
 
 ```
-./install-proteus.sh
+./install-proteus.sh <stack-dir>
 ```
+
+where `<stack_root>` is root directory of the desired software stack. For example:
+
+```
+$ ./install-proteus.sh ../stack-2019.03
+```
+
 
 Optional installation of a gcc compiler
 ---------------------------------------
