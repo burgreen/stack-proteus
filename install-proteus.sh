@@ -30,7 +30,7 @@ echo Installing tarballs
 
 cd $1
 
-tar xf $current/$script
+tar xf $current/$scripts
 tar xf $current/$var
 tar xf $current/$thirdparty
 
