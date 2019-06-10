@@ -3,7 +3,7 @@ stack-proteus
 
 Files needed to build a Proteus (python3 branch) software stack via Spack.
 
-NOTE: The OSX [clang-9.1] build process currently has a show-stopper hiccup while building `daetk`. 
+NOTE: The OSX [clang-9.1] build process currently has a show-stopper hiccup while linking `daetk`. 
 
 Installation of files
 ---------------------
